@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 
-int main(void)
-{
+int main(void){
+    int i,
     int tableau[5] = { 784, 5, 45, -12001, 8 };
     int somme = 0;
 
-    for (unsigned i = 0; i <= 5; ++i)
+    for ( i = 0; i <= 5; ++i)
         somme += tableau[i];
     
     printf("%d\n", somme);
